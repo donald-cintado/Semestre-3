@@ -1,0 +1,22 @@
+2. Qual característica do algoritmo QuickSort o 
+torna eficiente para ordenação de grandes conjuntos de dados?
+
+Resposta B. Divisão recursiva em subproblemas menores.
+
+3. Um algoritmo de ordenação é estável quando preserva a
+ordem relativa de elementos com chaves iguais. São exemplos
+de algoritmos de ordenação estáveis
+
+Resposta A. InsertionSort, MergeSort e BubbleSort.
+
+4. Os algoritmos de ordenação são ferramentas essenciais na programação e em ciência da computação, pois
+permitem a organização eficiente de dados. A escolha do algoritmo apropriado depende de fatores como o
+tamanho da lista, a natureza dos dados e a necessidade de eficiência em termos de tempo e espaço.
+Sendo assim, sobre os algoritmos de ordenação, podemos afirmar que
+I. Bubble sort é um algoritmo de ordenação simples e muito eficiente para grande conjunto de dados.
+II. Insertion sort é um algoritmo de ordenação utilizado para um pequeno número de elementos.
+III. Quick sort é um algoritmo de ordenação mais rápido, que emprega a técnica de divisão e conquista.
+IV. Selection sort recebe esse nome pela maneira como ele percorre o array ao longo das iterações: ele
+seleciona o menor elemento atual e o troca de lugar.
+
+Resposta D. II, III e IV.
