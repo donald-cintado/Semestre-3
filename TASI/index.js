@@ -1,5 +1,6 @@
 let express = require('express');
 let app = express();
+app.use(express.json());
 const PORT=3000;
 
 let usuarios = [
@@ -9,6 +10,17 @@ let usuarios = [
 
 app.get('/usuarios', function(req,res){
     res.json(usuarios)
+})
+
+app.post('/usuarios',function(req,res){
+    /* let id = req.body.id;
+    let nome = req.body.nome; */
+    const {id,nome} = req.body
+    const novoUsuario = {id:id,nome:nome}
+    usuarios.push(novoUsuario)
+    console.log({"dados do post": req.body})
+    res.json({"MSG":"Parabens, usuario inserido com sucesso!",
+        "usuario":novoUsuario})
 })
 
 app.listen(PORT, function(){
